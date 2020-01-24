@@ -9,3 +9,7 @@ Start another instance of an app, even if one is already running
 
 > -n, --new Open a new instance of the application even if one is already running.
 > -a, -- Opens with the specified application.
+
+### Example
+
+`open -n -a /Applications/Ableton\ Live\ 10\ Lite.app`
