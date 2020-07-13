@@ -18,3 +18,14 @@ Start another instance of an app, even if one is already running
 ## List all network interfaces without `ifconfig`
 
 `networksetup -listallhardwareports`
+
+## XCode command line tools
+
+```shell
+sudo rm -rf /Library/Developer/CommandLineTools
+sudo xcode-select --install
+```
+
+or
+
+Alternatively, manually download them from:  [https://developer.apple.com/download/more/](https://developer.apple.com/download/more/)
