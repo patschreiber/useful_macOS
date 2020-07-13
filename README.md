@@ -13,3 +13,8 @@ Start another instance of an app, even if one is already running
 ### Example
 
 `open -n -a /Applications/Ableton\ Live\ 10\ Lite.app`
+
+
+## List all network interfaces without `ifconfig`
+
+`networksetup -listallhardwareports`
